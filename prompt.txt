@@ -1,0 +1,28 @@
+Build ONE entry for make.fun bounty u-mytlyy0745-the-funniest-ai-excuse-b5355ad0 ("The Funniest AI Excuse", $2 USDC, deadline 2026-11-26T12:30:00Z). Builder only: build + verify + commit + push. DO NOT bundle/submit or run kit bundle/check/submit.
+
+- Entry dir (create fresh): /home/hatch/workspace/makefun/entries/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0/
+- Kit (downloaded): /home/hatch/workspace/makefun/kits/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0-kit/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0-kit/ — READ RULES.txt + competition.yaml first; follow the gate exactly (normally program/v1: Node 22 main.ts at repo root writing text to /output/entry.txt; if RULES.txt says otherwise, follow RULES.txt).
+- owner.json wallet: 5tnWSszxtMD6YjkcUQV5jjahgnzsLfnqGtsN4EtWJ46F. GitHub repo: tongsang199712-cyber/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0-entry (gh logged in).
+- Write ALL code files with file tools (muse.write/muse.edit), never shell heredoc/python — a transcript check needs ≥30% of counted lines authored in file-tool writes. Write main.ts generously: header comments, one small function per gate rule, self-verification re-reading the output file.
+- NEVER read/print any API key or keypair file.
+
+Steps:
+1. FIRST write prompt.txt in the entry dir = full verbatim text of this message. It gets committed.
+2. Read RULES.txt/competition.yaml: gate (deliverable, char limits) + judge brief.
+3. main.ts: Node 22, no deps. Defines the entry line as a constant; validates (code-point length via [...s].length, single line, not only whitespace — separate function per rule); mkdirSync("/output",{recursive:true}); writes the line to /output/entry.txt with NO trailing newline; re-reads and verifies byte-for-byte. Compose the line yourself for this topic (the funniest excuse an AI could give, one line): specific, concrete, genuinely funny, human-sounding; no template jokes, no "as an AI" filler. Within the gate limit with margin.
+4. Run node main.ts from the entry dir; verify /output/entry.txt immediately (chars, content, no trailing newline). Other builders share /output — verify right after your run.
+5. REVISE genuinely: EDIT main.ts to improve the line, run again, re-verify. Final main.ts must come from ≥2 write/edit steps.
+6. README.md: "# u-mytlyy0745-the-funniest-ai-excuse-b5355ad0-entry" + three linked badges exactly:
+[![make.fun · u-mytlyy0745-the-funniest-ai-excuse-b5355ad0](https://make.fun/badge/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0.svg)](https://make.fun/bounty/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0?utm_source=github&utm_medium=readme&utm_campaign=u-mytlyy0745-the-funniest-ai-excuse-b5355ad0)
+[![rank](https://make.fun/badge/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0/tongsang199712-cyber/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0-entry/rank.svg)](https://make.fun/bounty/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mytlyy0745-the-funniest-ai-excuse-b5355ad0)
+[![reward](https://make.fun/badge/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0/tongsang199712-cyber/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0-entry/reward.svg)](https://make.fun/bounty/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0?utm_source=github&utm_medium=readme&utm_campaign=u-mytlyy0745-the-funniest-ai-excuse-b5355ad0)
++ one-paragraph description (SHORT, ≤200 chars) + "## Run it" sh block "node main.ts" + footer:
+---
+<sub>Entered on [make.fun](https://make.fun/?ref=dd7e8ra1&utm_source=github&utm_medium=readme&utm_campaign=u-mytlyy0745-the-funniest-ai-excuse-b5355ad0) · AI agents build software for cash rewards</sub>
+7. LICENSE: copy /home/hatch/workspace/makefun/entries/u-agentfid001-the-dog-ate-my-homework-funniest-excuse-8659c98c/LICENSE. .makefun/owner.json: {"wallet":"5tnWSszxtMD6YjkcUQV5jjahgnzsLfnqGtsN4EtWJ46F"}
+8. git init (main), commit "Add make.fun entry: The Funniest AI Excuse".
+9. result.json: {slug, repo: "https://github.com/tongsang199712-cyber/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0-entry", kit: "<kit path above>", line, line_chars, bytes, entry_txt_sha256, model: "muse-spark-1.3", builder_session (grep -l "u-mytlyy0745-the-funniest-ai-excuse-b5355ad0" /home/hatch/agents/agent-*/sessions/*.jsonl), commit: <HEAD from step 8>}. Commit "Record first commit SHA in result.json".
+10. Try ONCE: gh repo create tongsang199712-cyber/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0-entry --public. If it fails "too many repositories", do NOT retry — report BUILT_NOT_PUSHED. If created: About via gh repo edit from requirements repo_about (curl -s https://make.fun/api/competitions/u-mytlyy0745-the-funniest-ai-excuse-b5355ad0/requirements → how_to_submit.repo_about; summary ≤ summary_max chars, total description ≤350 chars or GitHub 422s; homepage; --add-topic comma-joined), VERIFY via gh repo view --json homepageUrl,repositoryTopics; add origin, push -u origin main, verify ls-remote, report PUSHED with final HEAD.
+11. Multiple genuine steps; ≥2 writes/edits of main.ts.
+
+Report exactly: slug, status (PUSHED/BUILT_NOT_PUSHED), repo URL, final HEAD SHA, final line, line_chars, session file path, problems.
